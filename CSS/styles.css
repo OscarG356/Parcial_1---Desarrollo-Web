@@ -1,0 +1,92 @@
+body{
+    background-color: #fafafa;    
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: -40px;
+    color: rgb(86, 86, 86);
+    text-align: center;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(52, 52, 52);
+    text-align: center;
+}
+
+#text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(63, 63, 63);
+    width: 40%;
+    margin: auto;
+}
+
+article{
+    margin-top: 50px;
+    display: grid; 
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 10px; 
+    grid-template-areas: 
+      ". . Team . ."
+      ". Supervisor Team Calculator ."
+      ". Supervisor Karma Calculator ."
+      ". . Karma . ."; 
+}
+  
+
+#Team { 
+    grid-area: Team; 
+    border-top: 5px solid #ea5353;
+}
+
+#Supervisor { 
+    grid-area: Supervisor; 
+    border-top: 5px solid #62dada;
+}
+
+#Calculator { 
+    grid-area: Calculator; 
+    border-top: 5px solid #4a9dfc;
+}
+
+#Karma { 
+    grid-area: Karma; 
+    border-top: 5px solid #fc9b1d;
+}
+
+
+article section{
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px #a3a5ae;
+    padding: 10px;
+}
+
+article h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(52, 52, 52);
+}
+
+article p{
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #a3a5ae;
+}
